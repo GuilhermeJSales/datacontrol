@@ -1,0 +1,35 @@
+body{
+  font-family: monospace;
+  font-size:1.125rem;
+  width: 100%;
+}
+
+
+table{
+  border-spacing: 0;
+  text-align: left;
+}
+
+
+table td,
+table th{
+  padding: .5rem 1rem;
+}
+
+table tr:nth-child(even){
+  background:ghostwhite;
+}
+
+h2,p {
+  margin-left: 1rem;
+}
+
+
+h2{
+  border-top:6px solid ghostwhite;
+  padding-top:1rem;
+}
+
+div{
+  border-top:3px solid ghostwhite;
+}
